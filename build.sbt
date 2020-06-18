@@ -22,6 +22,8 @@ resolvers ++= Seq(
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 )
 
+val zioVersion = "1.0.0-RC20"
+
 libraryDependencies ++= Seq(
   // "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
   "org.pegdown" % "pegdown" % "1.6.0" % "test", //used in html report
@@ -71,7 +73,10 @@ libraryDependencies ++= Seq(
   "com.aliyun.fc.runtime" % "fc-java-core" % "1.3.0",
   "com.aliyun.oss" % "aliyun-sdk-oss" % "3.6.0",
   "org.json4s" %% "json4s-native" % "3.6.7",
-  "io.vavr" % "vavr" % "0.9.3"
+  "io.vavr" % "vavr" % "0.9.3",
+  "dev.zio" %% "zio"          % zioVersion,
+  "dev.zio" %% "zio-test"     % zioVersion % "test",
+  "dev.zio" %% "zio-test-sbt" % zioVersion % "test"
 )
 
 logBuffered := false
