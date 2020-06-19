@@ -1,6 +1,7 @@
 package com.github.notyy.typeflow.editor
 
 import com.github.notyy.typeflow.Fixtures
+import com.github.notyy.typeflow.domain.{Content, OutputPath}
 import org.scalatest.{FunSpec, Matchers}
 
 class Model2JsonTest extends FunSpec with Matchers {

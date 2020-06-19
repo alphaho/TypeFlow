@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor.aliyun
 
-import com.github.notyy.typeflow.editor.CodeUri
+import com.github.notyy.typeflow.domain.CodeUri
 import com.typesafe.scalalogging.Logger
 import org.scalatest.{FunSpec, Matchers}
 

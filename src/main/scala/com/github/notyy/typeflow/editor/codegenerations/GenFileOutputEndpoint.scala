@@ -1,7 +1,7 @@
 package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.FileOutputEndpoint
-import com.github.notyy.typeflow.editor.{CodeTemplate, JavaCode, PackageName, QualifiedName}
+import com.github.notyy.typeflow.domain
+import com.github.notyy.typeflow.domain.{CodeTemplate, FileOutputEndpoint, JavaCode, PackageName, QualifiedName}
 
 class GenFileOutputEndpoint(val genFormalParams: GenFormalParams) {
   def execute(packageName: PackageName, fileOutEndpoint: FileOutputEndpoint, codeTemplate: CodeTemplate): JavaCode = {
@@ -9,7 +9,7 @@ class GenFileOutputEndpoint(val genFormalParams: GenFormalParams) {
       replaceAllLiterally("$DefinitionName$", fileOutEndpoint.name).
       replaceAllLiterally("$ReturnType$", replaceEmptyReturnTypeWithVoid(fileOutEndpoint.outputs.head.outputType.name)).
       replaceAllLiterally("$Params$", genFormalParams.execute(fileOutEndpoint.inputs))
-    JavaCode(QualifiedName(s"${packageName.value}.${fileOutEndpoint.name}"), code)
+    domain.JavaCode(QualifiedName(s"${packageName.value}.${fileOutEndpoint.name}"), code)
   }
 
   def replaceEmptyReturnTypeWithVoid(returnType: String): String = {

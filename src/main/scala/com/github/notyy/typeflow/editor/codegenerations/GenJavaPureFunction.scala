@@ -1,7 +1,7 @@
 package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.PureFunction
-import com.github.notyy.typeflow.editor.{CodeTemplate, JavaCode, PackageName, QualifiedName}
+import com.github.notyy.typeflow.domain
+import com.github.notyy.typeflow.domain.{CodeTemplate, JavaCode, PackageName, PureFunction, QualifiedName}
 
 class GenJavaPureFunction(val genFormalParams: GenFormalParams) {
   def execute(packageName: PackageName, pureFunction: PureFunction, codeTemplate: CodeTemplate): JavaCode = {
@@ -9,7 +9,7 @@ class GenJavaPureFunction(val genFormalParams: GenFormalParams) {
       replaceAllLiterally("$DefinitionName$", pureFunction.name).
       replaceAllLiterally("$ReturnType$", genReturnType(pureFunction)).
       replaceAllLiterally("$Params$", genFormalParams.execute(pureFunction.inputs))
-    JavaCode(QualifiedName(s"${packageName.value}.${pureFunction.name}"), code)
+    domain.JavaCode(QualifiedName(s"${packageName.value}.${pureFunction.name}"), code)
   }
 
   private def genReturnType(pureFunction: PureFunction): String = {

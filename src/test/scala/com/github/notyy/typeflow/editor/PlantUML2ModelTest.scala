@@ -1,7 +1,7 @@
 package com.github.notyy.typeflow.editor
 
 import org.scalatest.{FunSpec, Matchers}
-import com.github.notyy.typeflow.domain.{Input, InputEndpoint, InputType, PureFunction, OutputEndpoint}
+import com.github.notyy.typeflow.domain.{Input, InputEndpoint, InputType, ModelFilePath, OutputEndpoint, PureFunction}
 
 class PlantUML2ModelTest extends FunSpec with Matchers {
   describe("PlantUML2Model") {

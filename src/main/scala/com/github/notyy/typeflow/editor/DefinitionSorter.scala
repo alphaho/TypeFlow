@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor
 
-import com.github.notyy.typeflow.domain.{AliyunOSSOutputEndpoint, Definition, FileOutputEndpoint, InputEndpoint, Model, OutputEndpoint, PureFunction}
+import com.github.notyy.typeflow.domain.{AliyunOSSOutputEndpoint, CustomType, Definition, FileOutputEndpoint, InputEndpoint, Model, OutputEndpoint, PureFunction}
 
 object DefinitionSorter {
   def execute(model: Model): (Vector[PureFunction], Vector[InputEndpoint], Vector[OutputEndpoint], Vector[CustomType], Vector[FileOutputEndpoint], Vector[AliyunOSSOutputEndpoint]) = {

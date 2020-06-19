@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.domain.QualifiedName
 import org.scalatest.{FunSpec, Matchers}
 
 class QualifiedName2CodeStructurePathTest extends FunSpec with Matchers {

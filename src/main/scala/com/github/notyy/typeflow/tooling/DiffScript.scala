@@ -1,6 +1,7 @@
 package com.github.notyy.typeflow.tooling
 
-import com.github.notyy.typeflow.editor.{Content, Diff, ModelFilePath, OutputPath, Path, ReadFile, SaveToFile}
+import com.github.notyy.typeflow.domain.{Content, ModelFilePath, OutputPath}
+import com.github.notyy.typeflow.editor.{Diff, ReadFile, SaveToFile}
 
 import scala.sys.process.Process
 

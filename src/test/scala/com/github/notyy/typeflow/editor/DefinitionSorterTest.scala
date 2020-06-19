@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.domain.ModelFilePath
 import org.scalatest.{FunSpec, Matchers}
 
 class DefinitionSorterTest extends FunSpec with Matchers {

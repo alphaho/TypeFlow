@@ -2,7 +2,7 @@ package com.github.notyy.typeflow.util
 
 import com.github.notyy.typeflow.{Fixtures, domain}
 import com.github.notyy.typeflow.domain._
-import com.github.notyy.typeflow.editor.{InterpreterResult, Path, QuitCommand, UnknownCommand, UserInput, UserInputInterpreter, WrappedOutput}
+import com.github.notyy.typeflow.editor.{InterpreterResult, QuitCommand, UnknownCommand, UserInputInterpreter}
 import org.scalatest.{FunSpec, Matchers}
 
 import scala.util.{Success, Try}
@@ -31,7 +31,7 @@ class ReflectRunnerTest extends FunSpec with Matchers {
 //      rs.asInstanceOf[UserInput] shouldBe UserInput("mock input")
 //    }
 //    it("should run OutputEndpoint") {
-//      val mockOutputEndpoint: OutputEndpoint = OutputEndpoint("com.github.notyy.typeflow.util.MockOutputEndpoint",Vector(Input(InputType("com.github.notyy.typeflow.editor.WrappedOutput"),1)), OutputType("Unit"),Vector.empty)
+//      val mockOutputEndpoint: OutputEndpoint = OutputEndpoint("com.github.notyy.typeflow.util.MockOutputEndpoint",Vector(Input(InputType("com.github.notyy.typeflow.domain.WrappedOutput"),1)), OutputType("Unit"),Vector.empty)
 //      ReflectRunner.run(mockOutputEndpoint,None,Some(Vector(WrappedOutput("input")))) shouldBe ()
 //    }
   }
@@ -42,5 +42,5 @@ object MockInputEndpoint {
 }
 
 object MockOutputEndpoint {
-  def execute(input: com.github.notyy.typeflow.editor.WrappedOutput): Try[Unit] = Success[Unit](())
+  def execute(input: WrappedOutput): Try[Unit] = Success[Unit](())
 }

@@ -2,10 +2,10 @@ package com.github.notyy.typeflow.tooling
 
 import java.io.File
 
-import com.github.notyy.typeflow.domain.{AliyunHttpInputEndpoint, Definition}
+import com.github.notyy.typeflow.domain.{AliyunHttpInputEndpoint, CodeUri, Content, Definition, ModelFilePath, OutputPath}
 import com.github.notyy.typeflow.editor.Model2Code.{CodeContent, CodeFileName}
 import com.github.notyy.typeflow.editor.aliyun.{AliyunConfigGen, AliyunFunction, Trigger}
-import com.github.notyy.typeflow.editor.{CodeLang, CodeUri, Content, Model2Code, ModelFilePath, OutputPath, Path, PlantUML, PlantUML2Model, ReadFile, SaveToFile}
+import com.github.notyy.typeflow.editor.{CodeLang, Model2Code, PlantUML2Model, ReadFile, SaveToFile}
 import com.typesafe.scalalogging.Logger
 
 import scala.util.{Failure, Success}

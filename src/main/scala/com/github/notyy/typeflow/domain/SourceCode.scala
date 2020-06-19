@@ -1,4 +1,4 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.domain
 
 trait SourceCode {
   def qualifiedName: QualifiedName

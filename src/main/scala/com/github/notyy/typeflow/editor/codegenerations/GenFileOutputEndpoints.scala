@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.FileOutputEndpoint
+import com.github.notyy.typeflow.domain.{CodeTemplate, FileOutputEndpoint, JavaCode, PackageName}
 import com.github.notyy.typeflow.editor._
 
 class GenFileOutputEndpoints(private val genFileOutputEndpoint: GenFileOutputEndpoint) {

@@ -2,6 +2,8 @@ package com.github.notyy.typeflow.editor
 
 import java.io.{File, PrintWriter}
 
+import com.github.notyy.typeflow.domain.PlantUML
+
 import scala.util.Try
 
 object SavePlantUML {

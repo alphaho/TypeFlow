@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.domain.{Content, ModelFilePath, OutputPath}
 import org.scalatest.{FunSpec, Matchers}
 
 class DiffTest extends FunSpec with Matchers {

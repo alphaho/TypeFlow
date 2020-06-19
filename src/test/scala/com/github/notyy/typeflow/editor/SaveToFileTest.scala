@@ -2,6 +2,7 @@ package com.github.notyy.typeflow.editor
 
 import java.io.File
 
+import com.github.notyy.typeflow.domain.{Content, OutputPath}
 import org.scalatest.{FunSpec, Matchers}
 
 import scala.io.Source

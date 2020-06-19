@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor
 
-import com.github.notyy.typeflow.domain.{Input, InputType, Output, OutputType}
+import com.github.notyy.typeflow.domain.{Input, InputType, Output, OutputType, UserInput}
 import org.scalatest.{FunSpec, Matchers}
 
 class UserInputInterpreterTest extends FunSpec with Matchers {

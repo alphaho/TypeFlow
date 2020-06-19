@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.domain.{Aliyun, CodeUri, Local, ModelFilePath, OutputPath, PackageName, Platform}
 import com.github.notyy.typeflow.editor.codegenerations.{GenAliyunHandler, GenAliyunHttpInputEndpointHandler, GenAliyunOSSOutputEndpoint, GenAliyunOSSOutputEndpoints, GenAliyunlCallStatement, GenCommandLineInputEndpoint, GenCommandLineInputEndpoints, GenFileInputEndpoint, GenFileInputEndpoints, GenFileOutputEndpoint, GenFileOutputEndpoints, GenFormalParams, GenJSonParamType, GenJSonParamType4InputEndpoint, GenJavaOutputEndpoint, GenJavaPureFunction, GenLocalCallStatement, GenOutputEndpoints, GenPlatformHandlers, GenPureFunctions, GenWriteOut}
 import com.github.notyy.typeflow.editor.codetemplates.{LoadAliyunHandlerCodeTemplate, LoadAliyunHttpInputEndpointCodeTemplate, LoadAliyunOSSOutputEndpointCodeTemplate, LoadCommandLineInputEndpointCodeTemplate, LoadFileInputEndpointCodeTemplate, LoadFileOutputEndpointCodeTemplate, LoadOutputEndpointCodeTemplate, LoadPureFunctionCodeTemplate}
 import com.typesafe.scalalogging.Logger

@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor
 
-import com.github.notyy.typeflow.domain.{AliyunHttpInputEndpoint, CommandLineInputEndpoint, Definition, Input, InputEndpoint, Model, Output, OutputEndpoint, PureFunction}
+import com.github.notyy.typeflow.domain.{AliyunHttpInputEndpoint, CodeTemplatePath, CommandLineInputEndpoint, Definition, Input, InputEndpoint, Model, Output, OutputEndpoint, PureFunction}
 import com.github.notyy.typeflow.util.TypeUtil
 import com.typesafe.scalalogging.Logger
 

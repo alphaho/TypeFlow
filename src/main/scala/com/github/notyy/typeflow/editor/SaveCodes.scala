@@ -2,6 +2,7 @@ package com.github.notyy.typeflow.editor
 
 import java.io.File
 
+import com.github.notyy.typeflow.domain.{CodeDir, Content, JavaCode, OutputPath, ScalaCode, SourceCode}
 import com.typesafe.scalalogging.Logger
 
 import scala.util.{Failure, Success, Try}

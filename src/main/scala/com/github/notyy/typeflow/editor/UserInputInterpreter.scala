@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor
 
-import com.github.notyy.typeflow.domain.{Input, InputType, Output, OutputType}
+import com.github.notyy.typeflow.domain.{Input, InputType, Output, OutputType, UserInput}
 import com.typesafe.scalalogging.Logger
 
 object UserInputInterpreter {

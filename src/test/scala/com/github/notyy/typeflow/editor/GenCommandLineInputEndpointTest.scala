@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor
 
-import com.github.notyy.typeflow.domain.CommandLineInputEndpoint
+import com.github.notyy.typeflow.domain.{CommandLineInputEndpoint, ModelFilePath, PackageName}
 import com.github.notyy.typeflow.editor.codegenerations.{GenCommandLineInputEndpoint, GenLocalCallStatement}
 import com.github.notyy.typeflow.editor.codetemplates.LoadFileInputEndpointCodeTemplate
 import org.scalatest.{FunSpec, Matchers}

@@ -1,5 +1,7 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.domain.Path
+
 import scala.io.Source
 import scala.util.Try
 

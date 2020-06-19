@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.domain.WrappedOutput
 import com.github.notyy.typeflow.editor.UpdateModel.{ModelUpdateFailed, ModelUpdateSuccess}
 
 object WrapOutput {

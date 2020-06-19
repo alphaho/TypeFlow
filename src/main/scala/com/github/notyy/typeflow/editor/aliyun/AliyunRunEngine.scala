@@ -4,7 +4,7 @@ import com.aliyun.oss.OSS
 import com.aliyuncs.fc.client.FunctionComputeClient
 import com.aliyuncs.fc.request.InvokeFunctionRequest
 import com.github.notyy.typeflow.domain._
-import com.github.notyy.typeflow.editor.{PlantUML, PlantUML2Model}
+import com.github.notyy.typeflow.editor.PlantUML2Model
 import com.github.notyy.typeflow.util.{JSONUtil, Param, TypeUtil}
 import com.typesafe.scalalogging.Logger
 

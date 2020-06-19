@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.AliyunOSSOutputEndpoint
+import com.github.notyy.typeflow.domain.{AliyunOSSOutputEndpoint, CodeTemplate, PackageName, ScalaCode}
 import com.github.notyy.typeflow.editor._
 
 class GenAliyunOSSOutputEndpoints(private val genAliyunOSSOutputEndpoint: GenAliyunOSSOutputEndpoint) {

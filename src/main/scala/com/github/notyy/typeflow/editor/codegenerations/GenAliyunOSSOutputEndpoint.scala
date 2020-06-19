@@ -1,7 +1,6 @@
 package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.AliyunOSSOutputEndpoint
-import com.github.notyy.typeflow.editor.{CodeTemplate, PackageName, QualifiedName, ScalaCode}
+import com.github.notyy.typeflow.domain.{AliyunOSSOutputEndpoint, CodeTemplate, PackageName, QualifiedName, ScalaCode}
 
 class GenAliyunOSSOutputEndpoint(val genFormalParams: GenFormalParams, val genWriteOut: GenWriteOut) {
   def execute(packageName: PackageName, aliyunOSSOutEndpoint: AliyunOSSOutputEndpoint, codeTemplate: CodeTemplate): ScalaCode = {

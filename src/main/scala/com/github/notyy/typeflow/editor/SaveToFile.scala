@@ -1,7 +1,10 @@
 package com.github.notyy.typeflow.editor
 
 import java.io.{File, PrintWriter}
+
+import com.github.notyy.typeflow.domain.{Content, Path}
 import com.typesafe.scalalogging.Logger
+
 import scala.util.Try
 
 class SaveToFile {

@@ -1,3 +1,3 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.domain
 
 case class PlantUML(modelName: String, content: String) //extends AnyVal

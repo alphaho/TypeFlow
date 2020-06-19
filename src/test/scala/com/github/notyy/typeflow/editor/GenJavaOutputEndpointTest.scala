@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor
 
-import com.github.notyy.typeflow.domain.{Input, InputType, OutputEndpoint, OutputType}
+import com.github.notyy.typeflow.domain.{CodeTemplate, Input, InputType, OutputEndpoint, OutputType, PackageName}
 import com.github.notyy.typeflow.editor.codegenerations.{GenFormalParams, GenJavaOutputEndpoint}
 import org.scalatest.{FunSpec, Matchers}
 

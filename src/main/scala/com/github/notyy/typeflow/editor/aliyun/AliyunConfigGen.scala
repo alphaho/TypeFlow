@@ -1,6 +1,6 @@
 package com.github.notyy.typeflow.editor.aliyun
 
-import com.github.notyy.typeflow.editor.CodeUri
+import com.github.notyy.typeflow.domain.CodeUri
 
 object AliyunConfigGen {
   def execute(serviceName: String, functions: Vector[AliyunFunction], codeUri: CodeUri): String = {

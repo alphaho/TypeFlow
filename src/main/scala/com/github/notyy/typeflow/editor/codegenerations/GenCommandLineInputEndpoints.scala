@@ -1,7 +1,6 @@
 package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.{CommandLineInputEndpoint, Model}
-import com.github.notyy.typeflow.editor.{CodeTemplate, PackageName, ScalaCode}
+import com.github.notyy.typeflow.domain.{CodeTemplate, CommandLineInputEndpoint, Model, PackageName, ScalaCode}
 
 class GenCommandLineInputEndpoints(private val genCommandLineInputEndpoint: GenCommandLineInputEndpoint) {
   def execute(commandLineInputEndpoints: Vector[CommandLineInputEndpoint], packageName: PackageName, codeTemplate: CodeTemplate, model: Model): Vector[ScalaCode] = {

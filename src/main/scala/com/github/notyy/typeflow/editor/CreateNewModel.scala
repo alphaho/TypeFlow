@@ -2,7 +2,7 @@ package com.github.notyy.typeflow.editor
 
 import java.io.File
 
-import com.github.notyy.typeflow.domain.Model
+import com.github.notyy.typeflow.domain.{Content, Model, OutputPath}
 
 import scala.util.{Failure, Success, Try}
 
