@@ -1,6 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
 import com.github.notyy.typeflow.domain.{Definition, Input}
+import com.github.notyy.typeflow.editor.{CodeTemplate, PackageName, QualifiedName, ScalaCode}
 
 class GenAliyunHandler(val genJSonParamType: GenJSonParamType, val genWriteOut: GenWriteOut) {
   def execute(packageName: PackageName, definition: Definition, codeTemplate: CodeTemplate): ScalaCode = {

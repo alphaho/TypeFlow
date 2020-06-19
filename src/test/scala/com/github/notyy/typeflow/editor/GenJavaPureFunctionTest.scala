@@ -1,6 +1,7 @@
 package com.github.notyy.typeflow.editor
 
 import com.github.notyy.typeflow.domain.{Input, InputType, Output, OutputType, PureFunction}
+import com.github.notyy.typeflow.editor.codegenerations.{GenFormalParams, GenJavaPureFunction}
 import org.scalatest.{FunSpec, Matchers}
 
 class GenJavaPureFunctionTest extends FunSpec with Matchers {

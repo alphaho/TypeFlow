@@ -1,6 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
 import com.github.notyy.typeflow.domain.PureFunction
+import com.github.notyy.typeflow.editor.{CodeTemplate, JavaCode, PackageName, QualifiedName}
 
 class GenJavaPureFunction(val genFormalParams: GenFormalParams) {
   def execute(packageName: PackageName, pureFunction: PureFunction, codeTemplate: CodeTemplate): JavaCode = {

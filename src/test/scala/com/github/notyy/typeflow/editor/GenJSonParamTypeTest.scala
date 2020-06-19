@@ -1,6 +1,7 @@
 package com.github.notyy.typeflow.editor
 
 import com.github.notyy.typeflow.domain.{Input, InputType}
+import com.github.notyy.typeflow.editor.codegenerations.GenJSonParamType
 import org.scalatest.{FunSpec, Matchers}
 
 class GenJSonParamTypeTest extends FunSpec with Matchers {

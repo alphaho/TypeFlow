@@ -1,6 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
 import com.github.notyy.typeflow.domain._
+import com.github.notyy.typeflow.editor._
 import com.typesafe.scalalogging.Logger
 
 class GenFileInputEndpoint(val genCallingChain: GenCallingChain) {

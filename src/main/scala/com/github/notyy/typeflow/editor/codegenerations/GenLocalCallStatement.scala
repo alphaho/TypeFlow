@@ -1,6 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
 import com.github.notyy.typeflow.domain.Definition
+import com.github.notyy.typeflow.editor.GenCallStatement
 
 class GenLocalCallStatement extends GenCallStatement {
   override def execute(paramNames: Vector[String], resultNamesMap: Map[Int, String], targetDefinition: Definition): Vector[String] = {

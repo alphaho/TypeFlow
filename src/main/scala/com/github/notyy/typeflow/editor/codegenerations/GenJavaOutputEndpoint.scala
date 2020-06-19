@@ -1,6 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
 import com.github.notyy.typeflow.domain.OutputEndpoint
+import com.github.notyy.typeflow.editor.{CodeTemplate, JavaCode, PackageName, QualifiedName}
 
 class GenJavaOutputEndpoint(val genFormalParams: GenFormalParams) {
   def execute(packageName: PackageName, outputEndpoint: OutputEndpoint, codeTemplate: CodeTemplate): JavaCode = {

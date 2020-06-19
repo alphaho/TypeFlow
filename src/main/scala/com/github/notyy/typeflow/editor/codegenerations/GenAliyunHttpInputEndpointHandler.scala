@@ -1,6 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
-import com.github.notyy.typeflow.domain.{Definition, Flow, Input, Model, Output}
+import com.github.notyy.typeflow.domain._
+import com.github.notyy.typeflow.editor._
 
 class GenAliyunHttpInputEndpointHandler(val genJSonParamType4InputEndpoint: GenJSonParamType4InputEndpoint, val genCallingChain: GenCallingChain) {
   def execute(packageName: PackageName, definition: Definition, codeTemplate: CodeTemplate, model: Model): ScalaCode = {

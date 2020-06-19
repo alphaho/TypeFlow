@@ -1,7 +1,7 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codegenerations
 
 import com.github.notyy.typeflow.domain.{AliyunHttpInputEndpoint, AliyunOSSOutputEndpoint, Model, PureFunction}
-import com.github.notyy.typeflow.editor.GenCodeScript.packageName
+import com.github.notyy.typeflow.editor._
 
 class GenPlatformHandlers(private val genAliyunHandler: GenAliyunHandler, private val genAliyunHttpInputEndpointHandler: GenAliyunHttpInputEndpointHandler, private val genAliyunOSSOutputEndpoint: GenAliyunOSSOutputEndpoint) {
   def execute(platform: Platform, aliyunHandlerCodeTemplate: CodeTemplate, aliyunHttpInputEndpointCodeTemplate: CodeTemplate,aliyunOSSOutputEndpointCodeTemplate: CodeTemplate, packageName: PackageName, model: Model): Vector[ScalaCode] = {
