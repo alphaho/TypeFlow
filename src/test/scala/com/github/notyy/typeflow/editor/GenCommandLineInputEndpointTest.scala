@@ -1,6 +1,7 @@
 package com.github.notyy.typeflow.editor
 
 import com.github.notyy.typeflow.domain.CommandLineInputEndpoint
+import com.github.notyy.typeflow.editor.codetemplates.LoadFileInputEndpointCodeTemplate
 import org.scalatest.{FunSpec, Matchers}
 
 class GenCommandLineInputEndpointTest extends FunSpec with Matchers {

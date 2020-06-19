@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.editor.codetemplates.{LoadAliyunHandlerCodeTemplate, LoadAliyunHttpInputEndpointCodeTemplate, LoadAliyunOSSOutputEndpointCodeTemplate, LoadCommandLineInputEndpointCodeTemplate, LoadFileInputEndpointCodeTemplate, LoadFileOutputEndpointCodeTemplate, LoadOutputEndpointCodeTemplate, LoadPureFunctionCodeTemplate}
 import com.typesafe.scalalogging.Logger
 
 import scala.util.{Failure, Success, Try}

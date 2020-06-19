@@ -1,5 +1,6 @@
 package com.github.notyy.typeflow.editor
 
+import com.github.notyy.typeflow.editor.codetemplates.LoadAliyunHandlerCodeTemplate
 import org.scalatest.{FunSpec, Matchers}
 
 class GenAliyunHandlerTest extends FunSpec with Matchers {

@@ -1,4 +1,6 @@
-package com.github.notyy.typeflow.editor
+package com.github.notyy.typeflow.editor.codetemplates
+
+import com.github.notyy.typeflow.editor.{CodeLang, CodeTemplate, CodeTemplatePath, ReadFile}
 
 import scala.util.Try
 
